@@ -22,9 +22,9 @@ class ComputerMonitor:
 				if self.callback:
 					self.callback()
 			else: 
-			   pass
+				pass
 			   
-			time.sleep(1)
+			time.sleep(2)
 
 	def start(self):
 		monitor_threading = threading.Thread(target=self.monitor, args=())

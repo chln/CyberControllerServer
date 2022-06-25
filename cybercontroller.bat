@@ -1,0 +1,1 @@
+pythonw xxx/Controller.pyw
